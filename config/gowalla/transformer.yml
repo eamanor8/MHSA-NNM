@@ -14,11 +14,11 @@ misc:
 
   # how many days in the past we consider
   previous_day: 7
-  verbose: True
+  verbose: True # If True, enables more detailed logging during training.
   debug: False
   batch_size: 64
-  print_step: 10
-  num_workers: 0
+  print_step: 10 # Number of steps before printing metrics during training.
+  num_workers: 0 # Number of processes used to load data (0 = single thread).
   # day_selection: default
   day_selection: default
 
@@ -27,12 +27,12 @@ embedding:
   poi_original_size: 0
 
 model:
-  networkName: transformer
+  networkName: transformer # Specifies the model architecture (in this case, Transformer)
   # only for transformer
   num_encoder_layers: 4
   nhead: 8
   dim_feedforward: 256
-  fc_dropout: 0.1
+  fc_dropout: 0.1 # Dropout rate (0.1) to prevent overfitting
 
 optimiser:
   optimizer: Adam
@@ -49,9 +49,9 @@ optimiser:
   num_warmup_epochs: 2
   num_training_epochs: 50
   # for decay
-  patience: 2
-  lr_step_size: 1
-  lr_gamma: 0.1
+  patience: 2 # If the validation loss doesn’t improve for 2 epochs, reduce the learning rate.
+  lr_step_size: 1 # Number of epochs between each learning rate adjustment (1).
+  lr_gamma: 0.1 # The factor by which the learning rate is reduced (0.1).
 
 dataset:
   source_root: ./data/

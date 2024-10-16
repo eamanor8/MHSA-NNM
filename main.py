@@ -50,10 +50,11 @@ def init_save_path(config, time_now, i):
 def setup(rank, world_size):
     os.environ["MASTER_ADDR"] = "localhost"
     os.environ["MASTER_PORT"] = "12355"
-    dist.init_process_group(backend="gloo", rank=rank, world_size=world_size)
+    dist.init_process_group(backend="gloo", rank=rank, world_size=world_size) # rank: Unique ID for each process.
+                                                                              # world_size: Total number of processes involved.
 
 
-def cleanup():
+def cleanup():     # Destroys the process group once training is complete
     dist.destroy_process_group()
 
 
