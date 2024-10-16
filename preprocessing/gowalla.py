@@ -191,7 +191,7 @@ def get_dataset(config):
     data_path = f"./data/valid_ids_gowalla.pk"
     with open(data_path, "wb") as handle:
         pickle.dump(final_valid_id, handle, protocol=pickle.HIGHEST_PROTOCOL)
-    gowalla_afterUser.to_csv(f"./data/dataSet_gowalla.csv", index=False)
+    gowalla_afterUser.to_csv(f"./data/dataset_gowalla.csv", index=False)
     gowalla_loc.to_csv(f"./data/locations_gowalla.csv", index=False)
 
     print("Final user size: ", gowalla_afterUser["user_id"].unique().shape[0])

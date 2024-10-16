@@ -1,0 +1,6 @@
+geolife: staypoint number per user: 368.89	 std: 454.77
+geolife: location number per user: 77.73	 std: 107.19
+geolife: tracked days per user: 343.62	 std: 414.40
+geolife: staypoint number per user per day: 2.45	 std: 1.53
+Final user size:  45
+Geolife: tracking quality: 0.44	 std: 0.25

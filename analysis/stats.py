@@ -31,14 +31,14 @@ def plot_entropy(if_gc=True):
 
     plt.figure(figsize=(8, 5))
     if if_gc:
-        gc = _calculate_entropy(r".\data\dataSet_gc.csv")
+        gc = _calculate_entropy(r"./data/dataset_gc.csv")
 
         realDensity = stats.gaussian_kde(gc)
         x = np.linspace(np.min(gc) - 0.5, np.max(gc) + 0.5, 50)
         plt.plot(x, realDensity(x), color=colors[0], label="GC")
         plt.fill_between(x, 0, realDensity(x), facecolor="blue", alpha=0.2)
 
-    geolife = _calculate_entropy(r".\data\dataSet_geolife.csv")
+    geolife = _calculate_entropy(r"./data/dataset_geolife.csv")
 
     realDensity = stats.gaussian_kde(geolife)
     x = np.linspace(np.min(geolife) - 0.5, np.max(geolife) + 0.5, 50)
@@ -74,7 +74,7 @@ def get_stats(if_gc=True):
         file_name = "gc"
     else:
         file_name = "geolife"
-    df = pd.read_csv(os.path.join(".", "data", f"dataSet_{file_name}.csv"))
+    df = pd.read_csv(os.path.join(".", "data", f"dataset_{file_name}.csv"))
 
     sp_num = df.groupby("user_id").apply(lambda x: len(x))
     print(f"{file_name}: staypoint number per user: {sp_num.mean():.2f}\t std: {sp_num.std():.2f}")
@@ -248,7 +248,7 @@ def plot_motifs(motif_prop):
     enc = OrdinalEncoder(dtype=np.int64)
     motif_prop["user_id"] = enc.fit_transform(motif_prop["user_id"].values.reshape(-1, 1)) + 1
 
-    result = pd.read_csv(r".\outputs\gc_transformer_7_5\user_detail.csv")
+    result = pd.read_csv(r"./outputs/gc_transformer_7_5/user_detail.csv")
     result["acc@1"] = result["correct@1"] / result["total"]
     result["acc@10"] = result["correct@10"] / result["total"]
 

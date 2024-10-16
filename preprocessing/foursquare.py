@@ -153,7 +153,7 @@ def get_dataset(config):
     data_path = f"./data/valid_ids_foursquare.pk"
     with open(data_path, "wb") as handle:
         pickle.dump(final_valid_id, handle, protocol=pickle.HIGHEST_PROTOCOL)
-    foursquare_afterUser.to_csv(f"./data/dataSet_foursquare.csv", index=False)
+    foursquare_afterUser.to_csv(f"./data/dataset_foursquare.csv", index=False)
     foursquare_loc.to_csv(f"./data/locations_foursquare.csv", index=False)
 
     print("Final user size: ", foursquare_afterUser["user_id"].unique().shape[0])
