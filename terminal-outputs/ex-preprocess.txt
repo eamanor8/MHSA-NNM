@@ -1,8 +1,0 @@
-Shape of the dataset before encoding: (20948, 8)
-Max location id: 11716, unique location id: 11715
-Max user id: 106, unique user id: 99
-Preprocessed excluded dataset saved:
-- Valid IDs: ./data-ex/valid_ids_gowalla.pk
-- Dataset: ./data-ex/dataset_gowalla.csv
-- Locations: ./data-ex/locations_gowalla.csv
-Final user size: 99
