@@ -1,0 +1,8 @@
+Max location id:62851, unique location id:62850
+Max user id:6984, unique user id:5000
+Max location id:51148, unique location id:51147
+Max user id:16460, unique user id:5000
+Final user size:  5000
+Final user size:  5000
+Final user size for Batch 1:  5000
+Final user size for Batch 2:  5000

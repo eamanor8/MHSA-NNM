@@ -1,6 +1,0 @@
-After filter non-location staypoints:  19584
-Location size:  2049 2049
-After staypoints merging:  19191
-User size:  91
-Max location id:1186, unique location id:1185
-Final user size:  45

@@ -124,7 +124,7 @@ if __name__ == "__main__":
     # load configs
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "config", type=str, nargs="?", help=" Config file path.", default="config/foursquare/transformer.yml"
+        "config", type=str, nargs="?", help=" Config file path.", default="config/gowalla/transformer.yml"
     )
     args = parser.parse_args()
     config = load_config(args.config)

@@ -1,173 +1,0 @@
-232 105 110
-Total number of trainable parameters:  112547
-Current learning rate:  0.0
-Epoch 1, 8.6%	 loss: 7.098 acc@1: 0.00 mrr: 0.52, ndcg: 0.19, took: 5.26s Epoch 1, 17.2%	 loss: 7.099 acc@1: 0.16 mrr: 0.77, ndcg: 0.60, took: 0.47s Epoch 1, 25.9%	 loss: 7.102 acc@1: 0.31 mrr: 0.86, ndcg: 0.52, took: 0.46s Epoch 1, 34.5%	 loss: 7.075 acc@1: 0.31 mrr: 1.03, ndcg: 0.82, took: 0.45s Epoch 1, 43.1%	 loss: 7.071 acc@1: 0.31 mrr: 1.08, ndcg: 0.95, took: 0.45s Epoch 1, 51.7%	 loss: 7.075 acc@1: 0.16 mrr: 1.01, ndcg: 0.89, took: 0.45s Epoch 1, 60.3%	 loss: 7.059 acc@1: 0.16 mrr: 1.27, ndcg: 1.18, took: 0.47s Epoch 1, 69.0%	 loss: 7.038 acc@1: 0.47 mrr: 1.92, ndcg: 1.88, took: 0.45s Epoch 1, 77.6%	 loss: 6.998 acc@1: 0.94 mrr: 2.44, ndcg: 2.32, took: 0.45s Epoch 1, 86.2%	 loss: 6.996 acc@1: 1.56 mrr: 3.96, ndcg: 4.24, took: 0.45s Epoch 1, 94.8%	 loss: 6.937 acc@1: 2.34 mrr: 5.01, ndcg: 5.27, took: 0.45s 
-Validation loss = 6.88 acc@1 = 11.49 f1 = 9.40 mrr = 15.22, ndcg = 16.15
-Validation loss decreased (inf --> 6.877091).  Saving model ...
-Current learning rate: 0.000500
-==================================================
-Epoch 2, 8.6%	 loss: 6.866 acc@1: 7.50 mrr: 11.02, ndcg: 11.82, took: 0.47s Epoch 2, 17.2%	 loss: 6.803 acc@1: 10.16 mrr: 15.09, ndcg: 16.42, took: 0.46s Epoch 2, 25.9%	 loss: 6.671 acc@1: 15.47 mrr: 20.81, ndcg: 22.44, took: 0.46s Epoch 2, 34.5%	 loss: 6.591 acc@1: 13.75 mrr: 20.39, ndcg: 22.73, took: 0.47s Epoch 2, 43.1%	 loss: 6.382 acc@1: 17.81 mrr: 24.89, ndcg: 27.30, took: 0.46s Epoch 2, 51.7%	 loss: 6.299 acc@1: 15.16 mrr: 23.53, ndcg: 26.32, took: 0.46s Epoch 2, 60.3%	 loss: 6.118 acc@1: 18.59 mrr: 27.83, ndcg: 31.31, took: 0.47s Epoch 2, 69.0%	 loss: 6.005 acc@1: 18.28 mrr: 28.37, ndcg: 32.22, took: 0.46s Epoch 2, 77.6%	 loss: 5.877 acc@1: 17.81 mrr: 27.62, ndcg: 32.15, took: 0.47s Epoch 2, 86.2%	 loss: 5.630 acc@1: 20.78 mrr: 31.37, ndcg: 35.93, took: 0.46s Epoch 2, 94.8%	 loss: 5.439 acc@1: 19.69 mrr: 31.51, ndcg: 36.50, took: 0.46s 
-Validation loss = 5.18 acc@1 = 19.56 f1 = 11.12 mrr = 32.95, ndcg = 38.19
-Validation loss decreased (6.877091 --> 5.177343).  Saving model ...
-Current learning rate: 0.001000
-==================================================
-Epoch 3, 8.6%	 loss: 5.225 acc@1: 20.78 mrr: 32.39, ndcg: 37.14, took: 0.47s Epoch 3, 17.2%	 loss: 4.875 acc@1: 23.59 mrr: 35.59, ndcg: 40.51, took: 0.47s Epoch 3, 25.9%	 loss: 4.900 acc@1: 22.97 mrr: 34.68, ndcg: 39.49, took: 0.47s Epoch 3, 34.5%	 loss: 4.835 acc@1: 22.66 mrr: 34.28, ndcg: 39.50, took: 0.47s Epoch 3, 43.1%	 loss: 4.756 acc@1: 23.75 mrr: 34.95, ndcg: 39.89, took: 0.46s Epoch 3, 51.7%	 loss: 4.527 acc@1: 27.03 mrr: 38.35, ndcg: 43.06, took: 0.45s Epoch 3, 60.3%	 loss: 4.326 acc@1: 27.50 mrr: 39.73, ndcg: 44.42, took: 0.45s Epoch 3, 69.0%	 loss: 4.451 acc@1: 24.53 mrr: 37.56, ndcg: 42.51, took: 0.45s Epoch 3, 77.6%	 loss: 4.234 acc@1: 24.69 mrr: 37.71, ndcg: 43.47, took: 0.45s Epoch 3, 86.2%	 loss: 4.334 acc@1: 27.50 mrr: 39.25, ndcg: 43.97, took: 0.45s Epoch 3, 94.8%	 loss: 4.306 acc@1: 24.22 mrr: 37.08, ndcg: 42.38, took: 0.45s 
-Validation loss = 4.67 acc@1 = 24.09 f1 = 14.52 mrr = 37.76, ndcg = 42.89
-Validation loss decreased (5.177343 --> 4.673156).  Saving model ...
-Current learning rate: 0.000979
-==================================================
-Epoch 4, 8.6%	 loss: 4.100 acc@1: 30.00 mrr: 41.77, ndcg: 46.19, took: 0.45s Epoch 4, 17.2%	 loss: 4.092 acc@1: 28.44 mrr: 40.65, ndcg: 45.18, took: 0.45s Epoch 4, 25.9%	 loss: 3.931 acc@1: 30.62 mrr: 43.38, ndcg: 48.02, took: 0.45s Epoch 4, 34.5%	 loss: 3.956 acc@1: 30.31 mrr: 43.07, ndcg: 47.87, took: 0.45s Epoch 4, 43.1%	 loss: 3.756 acc@1: 33.12 mrr: 45.21, ndcg: 49.71, took: 0.45s Epoch 4, 51.7%	 loss: 3.789 acc@1: 31.88 mrr: 45.00, ndcg: 49.64, took: 0.45s Epoch 4, 60.3%	 loss: 3.812 acc@1: 31.41 mrr: 44.92, ndcg: 49.52, took: 0.45s Epoch 4, 69.0%	 loss: 3.808 acc@1: 30.78 mrr: 43.73, ndcg: 48.43, took: 0.45s Epoch 4, 77.6%	 loss: 3.762 acc@1: 34.84 mrr: 46.56, ndcg: 50.43, took: 0.45s Epoch 4, 86.2%	 loss: 3.854 acc@1: 30.62 mrr: 43.84, ndcg: 48.59, took: 0.45s Epoch 4, 94.8%	 loss: 3.760 acc@1: 32.50 mrr: 45.42, ndcg: 50.20, took: 0.45s 
-Validation loss = 4.59 acc@1 = 28.91 f1 = 18.89 mrr = 41.42, ndcg = 46.14
-Validation loss decreased (4.673156 --> 4.588083).  Saving model ...
-Current learning rate: 0.000958
-==================================================
-Epoch 5, 8.6%	 loss: 3.654 acc@1: 34.06 mrr: 46.25, ndcg: 50.61, took: 0.47s Epoch 5, 17.2%	 loss: 3.737 acc@1: 31.88 mrr: 44.45, ndcg: 48.99, took: 0.47s Epoch 5, 25.9%	 loss: 3.511 acc@1: 33.12 mrr: 47.35, ndcg: 52.08, took: 0.45s Epoch 5, 34.5%	 loss: 3.352 acc@1: 37.97 mrr: 50.85, ndcg: 55.34, took: 0.45s Epoch 5, 43.1%	 loss: 3.442 acc@1: 33.75 mrr: 47.18, ndcg: 52.13, took: 0.45s Epoch 5, 51.7%	 loss: 3.601 acc@1: 31.88 mrr: 45.44, ndcg: 49.81, took: 0.45s Epoch 5, 60.3%	 loss: 3.461 acc@1: 37.81 mrr: 50.34, ndcg: 54.11, took: 0.45s Epoch 5, 69.0%	 loss: 3.470 acc@1: 32.97 mrr: 47.34, ndcg: 52.16, took: 0.47s Epoch 5, 77.6%	 loss: 3.331 acc@1: 38.59 mrr: 51.73, ndcg: 56.05, took: 0.51s Epoch 5, 86.2%	 loss: 3.204 acc@1: 40.78 mrr: 52.76, ndcg: 57.10, took: 0.51s Epoch 5, 94.8%	 loss: 3.514 acc@1: 37.34 mrr: 49.63, ndcg: 53.36, took: 0.52s 
-Validation loss = 4.48 acc@1 = 37.01 f1 = 24.45 mrr = 47.69, ndcg = 51.42
-Validation loss decreased (4.588083 --> 4.479798).  Saving model ...
-Current learning rate: 0.000937
-==================================================
-Epoch 6, 8.6%	 loss: 3.241 acc@1: 38.91 mrr: 51.10, ndcg: 55.63, took: 0.45s Epoch 6, 17.2%	 loss: 3.144 acc@1: 41.56 mrr: 53.71, ndcg: 57.78, took: 0.47s Epoch 6, 25.9%	 loss: 3.014 acc@1: 40.00 mrr: 54.06, ndcg: 58.59, took: 0.46s Epoch 6, 34.5%	 loss: 3.486 acc@1: 35.00 mrr: 47.38, ndcg: 51.07, took: 0.47s Epoch 6, 43.1%	 loss: 3.254 acc@1: 36.41 mrr: 50.60, ndcg: 55.22, took: 0.46s Epoch 6, 51.7%	 loss: 3.089 acc@1: 42.50 mrr: 54.40, ndcg: 58.24, took: 0.47s Epoch 6, 60.3%	 loss: 3.157 acc@1: 40.31 mrr: 52.88, ndcg: 56.88, took: 0.46s Epoch 6, 69.0%	 loss: 3.318 acc@1: 35.94 mrr: 48.98, ndcg: 53.59, took: 0.46s Epoch 6, 77.6%	 loss: 3.274 acc@1: 38.28 mrr: 51.03, ndcg: 55.55, took: 0.45s Epoch 6, 86.2%	 loss: 3.176 acc@1: 40.94 mrr: 53.31, ndcg: 57.34, took: 0.47s Epoch 6, 94.8%	 loss: 3.316 acc@1: 37.03 mrr: 49.99, ndcg: 54.35, took: 0.46s 
-Validation loss = 4.40 acc@1 = 37.76 f1 = 26.01 mrr = 48.70, ndcg = 52.54
-Validation loss decreased (4.479798 --> 4.398438).  Saving model ...
-Current learning rate: 0.000917
-==================================================
-Epoch 7, 8.6%	 loss: 3.072 acc@1: 40.16 mrr: 52.66, ndcg: 56.81, took: 0.45s Epoch 7, 17.2%	 loss: 2.984 acc@1: 40.62 mrr: 53.73, ndcg: 58.08, took: 0.46s Epoch 7, 25.9%	 loss: 3.099 acc@1: 40.31 mrr: 52.59, ndcg: 56.62, took: 0.46s Epoch 7, 34.5%	 loss: 3.103 acc@1: 40.62 mrr: 53.10, ndcg: 56.94, took: 0.46s Epoch 7, 43.1%	 loss: 2.859 acc@1: 43.12 mrr: 56.04, ndcg: 60.75, took: 0.48s Epoch 7, 51.7%	 loss: 3.154 acc@1: 37.81 mrr: 51.54, ndcg: 55.75, took: 0.47s Epoch 7, 60.3%	 loss: 3.067 acc@1: 38.75 mrr: 52.44, ndcg: 56.80, took: 0.47s Epoch 7, 69.0%	 loss: 3.093 acc@1: 40.00 mrr: 52.78, ndcg: 56.95, took: 0.47s Epoch 7, 77.6%	 loss: 2.887 acc@1: 42.81 mrr: 55.91, ndcg: 60.41, took: 0.47s Epoch 7, 86.2%	 loss: 3.053 acc@1: 41.72 mrr: 54.17, ndcg: 58.59, took: 0.45s Epoch 7, 94.8%	 loss: 2.998 acc@1: 43.12 mrr: 54.94, ndcg: 59.24, took: 0.45s 
-Validation loss = 4.47 acc@1 = 38.63 f1 = 27.96 mrr = 49.33, ndcg = 53.09
-EarlyStopping counter: 1 out of 3
-Current learning rate: 0.000896
-==================================================
-Epoch 8, 8.6%	 loss: 2.999 acc@1: 39.84 mrr: 52.80, ndcg: 57.12, took: 0.45s Epoch 8, 17.2%	 loss: 2.889 acc@1: 44.06 mrr: 55.67, ndcg: 59.73, took: 0.45s Epoch 8, 25.9%	 loss: 2.985 acc@1: 39.22 mrr: 52.91, ndcg: 57.20, took: 0.45s Epoch 8, 34.5%	 loss: 2.776 acc@1: 44.53 mrr: 56.94, ndcg: 61.09, took: 0.45s Epoch 8, 43.1%	 loss: 2.668 acc@1: 44.53 mrr: 57.66, ndcg: 62.00, took: 0.44s Epoch 8, 51.7%	 loss: 2.628 acc@1: 47.19 mrr: 59.69, ndcg: 63.87, took: 0.45s Epoch 8, 60.3%	 loss: 2.848 acc@1: 42.03 mrr: 55.12, ndcg: 59.36, took: 0.45s Epoch 8, 69.0%	 loss: 2.958 acc@1: 42.66 mrr: 54.64, ndcg: 58.50, took: 0.45s Epoch 8, 77.6%	 loss: 2.928 acc@1: 41.72 mrr: 54.20, ndcg: 58.37, took: 0.45s Epoch 8, 86.2%	 loss: 2.792 acc@1: 45.16 mrr: 57.01, ndcg: 61.32, took: 0.45s Epoch 8, 94.8%	 loss: 2.851 acc@1: 41.41 mrr: 54.86, ndcg: 59.66, took: 0.45s 
-Validation loss = 4.47 acc@1 = 41.06 f1 = 31.59 mrr = 50.75, ndcg = 54.22
-EarlyStopping counter: 2 out of 3
-Current learning rate: 0.000875
-==================================================
-Epoch 9, 8.6%	 loss: 2.783 acc@1: 42.81 mrr: 55.36, ndcg: 59.48, took: 0.45s Epoch 9, 17.2%	 loss: 2.713 acc@1: 43.59 mrr: 56.63, ndcg: 61.09, took: 0.46s Epoch 9, 25.9%	 loss: 2.632 acc@1: 43.75 mrr: 56.99, ndcg: 61.33, took: 0.45s Epoch 9, 34.5%	 loss: 2.660 acc@1: 47.50 mrr: 58.72, ndcg: 62.77, took: 0.46s Epoch 9, 43.1%	 loss: 2.806 acc@1: 45.31 mrr: 57.07, ndcg: 61.50, took: 0.46s Epoch 9, 51.7%	 loss: 2.663 acc@1: 46.25 mrr: 58.39, ndcg: 62.68, took: 0.45s Epoch 9, 60.3%	 loss: 2.740 acc@1: 43.28 mrr: 56.34, ndcg: 61.12, took: 0.45s Epoch 9, 69.0%	 loss: 2.665 acc@1: 45.94 mrr: 58.84, ndcg: 63.00, took: 0.46s Epoch 9, 77.6%	 loss: 2.815 acc@1: 42.97 mrr: 55.39, ndcg: 60.09, took: 0.45s Epoch 9, 86.2%	 loss: 2.723 acc@1: 43.44 mrr: 56.39, ndcg: 60.97, took: 0.44s Epoch 9, 94.8%	 loss: 2.642 acc@1: 45.62 mrr: 57.85, ndcg: 62.14, took: 0.45s 
-Validation loss = 4.42 acc@1 = 41.09 f1 = 31.85 mrr = 50.81, ndcg = 54.30
-EarlyStopping counter: 3 out of 3
-==================================================
-Early stopping
-Current learning rate: 0.000085
-==================================================
-Epoch 10, 8.6%	 loss: 3.069 acc@1: 41.88 mrr: 54.07, ndcg: 57.54, took: 0.47s Epoch 10, 17.2%	 loss: 2.924 acc@1: 42.19 mrr: 55.32, ndcg: 59.56, took: 0.46s Epoch 10, 25.9%	 loss: 2.985 acc@1: 43.12 mrr: 55.40, ndcg: 59.26, took: 0.46s Epoch 10, 34.5%	 loss: 3.053 acc@1: 39.22 mrr: 52.43, ndcg: 56.51, took: 0.47s Epoch 10, 43.1%	 loss: 3.097 acc@1: 39.69 mrr: 52.03, ndcg: 56.02, took: 0.47s Epoch 10, 51.7%	 loss: 3.199 acc@1: 38.12 mrr: 51.12, ndcg: 55.67, took: 0.46s Epoch 10, 60.3%	 loss: 3.053 acc@1: 39.53 mrr: 52.73, ndcg: 57.09, took: 0.46s Epoch 10, 69.0%	 loss: 3.091 acc@1: 43.12 mrr: 54.29, ndcg: 57.65, took: 0.46s Epoch 10, 77.6%	 loss: 2.913 acc@1: 41.88 mrr: 54.99, ndcg: 59.47, took: 0.47s Epoch 10, 86.2%	 loss: 3.021 acc@1: 40.62 mrr: 53.87, ndcg: 58.14, took: 0.47s Epoch 10, 94.8%	 loss: 2.972 acc@1: 43.44 mrr: 54.88, ndcg: 58.65, took: 0.46s 
-Validation loss = 4.40 acc@1 = 38.48 f1 = 27.38 mrr = 49.10, ndcg = 52.85
-EarlyStopping counter: 1 out of 3
-Current learning rate: 0.000085
-==================================================
-Epoch 11, 8.6%	 loss: 2.922 acc@1: 40.94 mrr: 54.63, ndcg: 58.81, took: 0.46s Epoch 11, 17.2%	 loss: 2.944 acc@1: 42.97 mrr: 55.34, ndcg: 59.69, took: 0.46s Epoch 11, 25.9%	 loss: 2.911 acc@1: 41.72 mrr: 54.96, ndcg: 59.49, took: 0.45s Epoch 11, 34.5%	 loss: 2.994 acc@1: 40.94 mrr: 53.91, ndcg: 57.81, took: 0.45s Epoch 11, 43.1%	 loss: 3.117 acc@1: 37.66 mrr: 51.07, ndcg: 55.56, took: 0.46s Epoch 11, 51.7%	 loss: 2.918 acc@1: 42.81 mrr: 55.09, ndcg: 59.24, took: 0.46s Epoch 11, 60.3%	 loss: 3.169 acc@1: 37.50 mrr: 51.09, ndcg: 55.24, took: 0.45s Epoch 11, 69.0%	 loss: 3.076 acc@1: 40.00 mrr: 52.12, ndcg: 56.01, took: 0.45s Epoch 11, 77.6%	 loss: 3.057 acc@1: 40.31 mrr: 53.31, ndcg: 57.32, took: 0.46s Epoch 11, 86.2%	 loss: 2.905 acc@1: 40.94 mrr: 54.49, ndcg: 59.14, took: 0.45s Epoch 11, 94.8%	 loss: 3.049 acc@1: 40.00 mrr: 53.03, ndcg: 57.26, took: 0.45s 
-Validation loss = 4.40 acc@1 = 38.66 f1 = 27.57 mrr = 49.17, ndcg = 52.84
-EarlyStopping counter: 2 out of 3
-Current learning rate: 0.000085
-==================================================
-Epoch 12, 8.6%	 loss: 2.990 acc@1: 41.72 mrr: 54.55, ndcg: 58.45, took: 0.46s Epoch 12, 17.2%	 loss: 2.948 acc@1: 43.59 mrr: 55.53, ndcg: 59.40, took: 0.47s Epoch 12, 25.9%	 loss: 3.086 acc@1: 40.00 mrr: 52.42, ndcg: 56.92, took: 0.47s Epoch 12, 34.5%	 loss: 3.077 acc@1: 43.91 mrr: 54.51, ndcg: 57.57, took: 0.48s Epoch 12, 43.1%	 loss: 2.968 acc@1: 42.19 mrr: 54.59, ndcg: 58.55, took: 0.47s Epoch 12, 51.7%	 loss: 3.176 acc@1: 39.84 mrr: 51.85, ndcg: 55.79, took: 0.46s Epoch 12, 60.3%	 loss: 2.916 acc@1: 42.97 mrr: 55.61, ndcg: 59.64, took: 0.45s Epoch 12, 69.0%	 loss: 2.954 acc@1: 40.94 mrr: 54.34, ndcg: 58.61, took: 0.45s Epoch 12, 77.6%	 loss: 3.047 acc@1: 38.59 mrr: 53.02, ndcg: 57.62, took: 0.45s Epoch 12, 86.2%	 loss: 2.997 acc@1: 41.41 mrr: 53.85, ndcg: 57.92, took: 0.45s Epoch 12, 94.8%	 loss: 2.951 acc@1: 41.72 mrr: 54.24, ndcg: 58.74, took: 0.44s 
-Validation loss = 4.40 acc@1 = 39.11 f1 = 28.34 mrr = 49.44, ndcg = 53.11
-EarlyStopping counter: 3 out of 3
-==================================================
-Early stopping
-Current learning rate: 0.000009
-==================================================
-Epoch 13, 8.6%	 loss: 3.127 acc@1: 38.75 mrr: 51.62, ndcg: 56.06, took: 0.45s Epoch 13, 17.2%	 loss: 3.186 acc@1: 37.97 mrr: 50.94, ndcg: 55.21, took: 0.47s Epoch 13, 25.9%	 loss: 3.162 acc@1: 38.12 mrr: 51.36, ndcg: 55.90, took: 0.46s Epoch 13, 34.5%	 loss: 2.966 acc@1: 41.25 mrr: 53.95, ndcg: 57.97, took: 0.46s Epoch 13, 43.1%	 loss: 3.114 acc@1: 40.94 mrr: 53.11, ndcg: 57.16, took: 0.45s Epoch 13, 51.7%	 loss: 2.963 acc@1: 41.25 mrr: 54.45, ndcg: 58.43, took: 0.45s Epoch 13, 60.3%	 loss: 3.164 acc@1: 39.69 mrr: 52.19, ndcg: 56.25, took: 0.44s Epoch 13, 69.0%	 loss: 3.103 acc@1: 40.47 mrr: 52.87, ndcg: 57.19, took: 0.45s Epoch 13, 77.6%	 loss: 2.759 acc@1: 43.59 mrr: 57.31, ndcg: 61.67, took: 0.46s Epoch 13, 86.2%	 loss: 3.054 acc@1: 38.59 mrr: 52.42, ndcg: 56.77, took: 0.46s Epoch 13, 94.8%	 loss: 3.093 acc@1: 40.78 mrr: 52.86, ndcg: 56.65, took: 0.52s 
-Validation loss = 4.42 acc@1 = 37.61 f1 = 25.97 mrr = 48.57, ndcg = 52.47
-EarlyStopping counter: 1 out of 3
-Current learning rate: 0.000009
-==================================================
-Epoch 14, 8.6%	 loss: 2.973 acc@1: 41.09 mrr: 54.37, ndcg: 58.77, took: 0.53s Epoch 14, 17.2%	 loss: 2.989 acc@1: 42.81 mrr: 55.04, ndcg: 59.08, took: 0.52s Epoch 14, 25.9%	 loss: 3.111 acc@1: 38.91 mrr: 51.97, ndcg: 56.35, took: 0.54s Epoch 14, 34.5%	 loss: 3.120 acc@1: 38.75 mrr: 51.79, ndcg: 55.89, took: 0.54s Epoch 14, 43.1%	 loss: 3.019 acc@1: 38.91 mrr: 52.42, ndcg: 56.95, took: 0.51s Epoch 14, 51.7%	 loss: 3.025 acc@1: 40.62 mrr: 53.11, ndcg: 57.23, took: 0.50s Epoch 14, 60.3%	 loss: 3.169 acc@1: 40.00 mrr: 52.27, ndcg: 56.29, took: 0.48s Epoch 14, 69.0%	 loss: 2.780 acc@1: 43.59 mrr: 56.91, ndcg: 61.35, took: 0.50s Epoch 14, 77.6%	 loss: 3.059 acc@1: 41.41 mrr: 53.49, ndcg: 57.45, took: 0.53s Epoch 14, 86.2%	 loss: 3.002 acc@1: 39.22 mrr: 53.28, ndcg: 57.38, took: 0.55s Epoch 14, 94.8%	 loss: 3.197 acc@1: 40.31 mrr: 52.16, ndcg: 56.30, took: 0.52s 
-Validation loss = 4.43 acc@1 = 37.43 f1 = 25.64 mrr = 48.52, ndcg = 52.40
-EarlyStopping counter: 2 out of 3
-Current learning rate: 0.000009
-==================================================
-Epoch 15, 8.6%	 loss: 2.930 acc@1: 41.88 mrr: 55.07, ndcg: 59.36, took: 0.50s Epoch 15, 17.2%	 loss: 2.996 acc@1: 42.97 mrr: 54.36, ndcg: 58.22, took: 0.50s Epoch 15, 25.9%	 loss: 3.215 acc@1: 37.66 mrr: 50.66, ndcg: 54.70, took: 0.49s Epoch 15, 34.5%	 loss: 2.994 acc@1: 42.50 mrr: 54.95, ndcg: 58.94, took: 0.49s Epoch 15, 43.1%	 loss: 3.094 acc@1: 39.22 mrr: 52.41, ndcg: 56.78, took: 0.50s Epoch 15, 51.7%	 loss: 2.964 acc@1: 41.09 mrr: 54.09, ndcg: 58.46, took: 0.49s Epoch 15, 60.3%	 loss: 2.922 acc@1: 44.38 mrr: 56.35, ndcg: 60.67, took: 0.50s Epoch 15, 69.0%	 loss: 3.156 acc@1: 39.22 mrr: 51.81, ndcg: 56.04, took: 0.49s Epoch 15, 77.6%	 loss: 3.146 acc@1: 37.34 mrr: 51.02, ndcg: 55.25, took: 0.49s Epoch 15, 86.2%	 loss: 3.052 acc@1: 44.22 mrr: 54.85, ndcg: 58.45, took: 0.50s Epoch 15, 94.8%	 loss: 3.025 acc@1: 40.16 mrr: 53.51, ndcg: 57.79, took: 0.49s 
-Validation loss = 4.43 acc@1 = 37.40 f1 = 25.56 mrr = 48.50, ndcg = 52.38
-EarlyStopping counter: 3 out of 3
-==================================================
-Early stopping
-Training finished.	 Time: 107.22s.	 acc@1: 37.76%
-128.84007083847757 32.43966064396105
-acc@1 = 27.73 f1 = 17.82 mrr = 39.18 ndcg = 43.33
-[{'correct@1': 1259.0, 'correct@3': 1908.0, 'correct@5': 2037.0, 'correct@10': 2179.0, 'rr': 1623.6056, 'ndcg': 52.54431366920471, 'f1': 0.2601236797452633, 'total': 3334.0, 'acc@1': 37.76244819164276, 'acc@5': 61.0977828502655, 'acc@10': 65.35692811012268, 'mrr': 48.69842827320099, 'type': 'vali'}, {'correct@1': 971.0, 'correct@3': 1666.0, 'correct@5': 1839.0, 'correct@10': 2019.0, 'rr': 1372.0613, 'ndcg': 43.32578182220459, 'f1': 0.17818112966949587, 'total': 3502.0, 'acc@1': 27.72701382637024, 'acc@5': 52.51284837722778, 'acc@10': 57.65277147293091, 'mrr': 39.17936384677887, 'type': 'test'}]
-Total number of trainable parameters:  112547
-Current learning rate:  0.0
-Epoch 1, 8.6%	 loss: 7.176 acc@1: 0.00 mrr: 0.34, ndcg: 0.06, took: 0.47s Epoch 1, 17.2%	 loss: 7.162 acc@1: 0.16 mrr: 0.54, ndcg: 0.22, took: 0.46s Epoch 1, 25.9%	 loss: 7.166 acc@1: 0.16 mrr: 0.61, ndcg: 0.41, took: 0.46s Epoch 1, 34.5%	 loss: 7.157 acc@1: 0.16 mrr: 0.66, ndcg: 0.43, took: 0.46s Epoch 1, 43.1%	 loss: 7.143 acc@1: 0.00 mrr: 0.64, ndcg: 0.46, took: 0.46s Epoch 1, 51.7%	 loss: 7.149 acc@1: 0.00 mrr: 0.56, ndcg: 0.41, took: 0.46s Epoch 1, 60.3%	 loss: 7.131 acc@1: 0.16 mrr: 0.79, ndcg: 0.60, took: 0.45s Epoch 1, 69.0%	 loss: 7.105 acc@1: 0.16 mrr: 0.89, ndcg: 0.61, took: 0.46s Epoch 1, 77.6%	 loss: 7.081 acc@1: 0.00 mrr: 1.06, ndcg: 0.91, took: 0.46s Epoch 1, 86.2%	 loss: 7.085 acc@1: 0.16 mrr: 1.20, ndcg: 1.06, took: 0.46s Epoch 1, 94.8%	 loss: 7.052 acc@1: 1.09 mrr: 2.52, ndcg: 2.55, took: 0.46s 
-Validation loss = 7.05 acc@1 = 1.20 f1 = 1.46 mrr = 3.05, ndcg = 3.32
-Validation loss decreased (inf --> 7.050865).  Saving model ...
-Current learning rate: 0.000500
-==================================================
-Epoch 2, 8.6%	 loss: 6.991 acc@1: 2.50 mrr: 4.61, ndcg: 4.96, took: 0.49s Epoch 2, 17.2%	 loss: 6.923 acc@1: 5.00 mrr: 7.87, ndcg: 8.35, took: 0.49s Epoch 2, 25.9%	 loss: 6.819 acc@1: 8.12 mrr: 12.62, ndcg: 13.75, took: 0.50s Epoch 2, 34.5%	 loss: 6.756 acc@1: 9.69 mrr: 16.07, ndcg: 18.25, took: 0.49s Epoch 2, 43.1%	 loss: 6.610 acc@1: 15.62 mrr: 23.11, ndcg: 25.73, took: 0.51s Epoch 2, 51.7%	 loss: 6.422 acc@1: 17.97 mrr: 25.21, ndcg: 27.90, took: 0.49s Epoch 2, 60.3%	 loss: 6.280 acc@1: 17.03 mrr: 25.68, ndcg: 28.65, took: 0.49s Epoch 2, 69.0%	 loss: 6.066 acc@1: 19.38 mrr: 27.59, ndcg: 30.96, took: 0.50s Epoch 2, 77.6%	 loss: 5.875 acc@1: 21.09 mrr: 29.00, ndcg: 32.02, took: 0.53s Epoch 2, 86.2%	 loss: 5.699 acc@1: 21.56 mrr: 29.80, ndcg: 33.18, took: 0.49s Epoch 2, 94.8%	 loss: 5.572 acc@1: 19.53 mrr: 28.61, ndcg: 32.16, took: 0.50s 
-Validation loss = 5.49 acc@1 = 20.16 f1 = 10.29 mrr = 29.95, ndcg = 34.77
-Validation loss decreased (7.050865 --> 5.490487).  Saving model ...
-Current learning rate: 0.001000
-==================================================
-Epoch 3, 8.6%	 loss: 5.205 acc@1: 20.94 mrr: 31.28, ndcg: 35.77, took: 0.46s Epoch 3, 17.2%	 loss: 5.158 acc@1: 20.31 mrr: 30.77, ndcg: 35.70, took: 0.47s Epoch 3, 25.9%	 loss: 5.077 acc@1: 21.09 mrr: 31.97, ndcg: 37.12, took: 0.46s Epoch 3, 34.5%	 loss: 4.965 acc@1: 22.66 mrr: 32.97, ndcg: 37.34, took: 0.45s Epoch 3, 43.1%	 loss: 4.972 acc@1: 22.81 mrr: 32.96, ndcg: 37.14, took: 0.46s Epoch 3, 51.7%	 loss: 4.571 acc@1: 27.50 mrr: 38.34, ndcg: 42.92, took: 0.45s Epoch 3, 60.3%	 loss: 4.485 acc@1: 25.62 mrr: 38.20, ndcg: 43.38, took: 0.51s Epoch 3, 69.0%	 loss: 4.471 acc@1: 27.19 mrr: 38.38, ndcg: 43.11, took: 0.45s Epoch 3, 77.6%	 loss: 4.437 acc@1: 27.81 mrr: 39.29, ndcg: 43.79, took: 0.45s Epoch 3, 86.2%	 loss: 4.398 acc@1: 29.38 mrr: 40.25, ndcg: 44.27, took: 0.51s Epoch 3, 94.8%	 loss: 4.415 acc@1: 28.44 mrr: 39.48, ndcg: 43.47, took: 0.49s 
-Validation loss = 4.69 acc@1 = 31.31 f1 = 17.64 mrr = 41.87, ndcg = 45.35
-Validation loss decreased (5.490487 --> 4.694485).  Saving model ...
-Current learning rate: 0.000979
-==================================================
-Epoch 4, 8.6%	 loss: 4.284 acc@1: 27.50 mrr: 39.50, ndcg: 43.59, took: 0.47s Epoch 4, 17.2%	 loss: 4.020 acc@1: 30.62 mrr: 43.04, ndcg: 47.55, took: 0.46s Epoch 4, 25.9%	 loss: 3.887 acc@1: 30.78 mrr: 43.64, ndcg: 48.15, took: 0.46s Epoch 4, 34.5%	 loss: 3.913 acc@1: 33.12 mrr: 44.98, ndcg: 49.68, took: 0.47s Epoch 4, 43.1%	 loss: 3.856 acc@1: 31.56 mrr: 44.19, ndcg: 48.97, took: 0.46s Epoch 4, 51.7%	 loss: 3.828 acc@1: 30.47 mrr: 43.84, ndcg: 48.53, took: 0.46s Epoch 4, 60.3%	 loss: 3.676 acc@1: 33.12 mrr: 46.82, ndcg: 51.88, took: 0.46s Epoch 4, 69.0%	 loss: 3.883 acc@1: 34.22 mrr: 45.20, ndcg: 49.53, took: 0.46s Epoch 4, 77.6%	 loss: 3.659 acc@1: 34.53 mrr: 47.41, ndcg: 52.03, took: 0.46s Epoch 4, 86.2%	 loss: 3.674 acc@1: 35.47 mrr: 48.01, ndcg: 52.45, took: 0.47s Epoch 4, 94.8%	 loss: 3.827 acc@1: 35.00 mrr: 46.54, ndcg: 50.47, took: 0.46s 
-Validation loss = 4.59 acc@1 = 33.92 f1 = 21.70 mrr = 45.18, ndcg = 48.99
-Validation loss decreased (4.694485 --> 4.585112).  Saving model ...
-Current learning rate: 0.000958
-==================================================
-Epoch 5, 8.6%	 loss: 3.501 acc@1: 34.38 mrr: 47.48, ndcg: 51.97, took: 0.46s Epoch 5, 17.2%	 loss: 3.543 acc@1: 36.09 mrr: 48.50, ndcg: 52.74, took: 0.46s Epoch 5, 25.9%	 loss: 3.582 acc@1: 32.50 mrr: 46.02, ndcg: 50.78, took: 0.46s Epoch 5, 34.5%	 loss: 3.574 acc@1: 34.84 mrr: 47.88, ndcg: 52.45, took: 0.46s Epoch 5, 43.1%	 loss: 3.353 acc@1: 36.56 mrr: 50.84, ndcg: 55.78, took: 0.50s Epoch 5, 51.7%	 loss: 3.504 acc@1: 33.75 mrr: 47.78, ndcg: 52.27, took: 0.57s Epoch 5, 60.3%	 loss: 3.340 acc@1: 37.81 mrr: 50.49, ndcg: 55.00, took: 0.50s Epoch 5, 69.0%	 loss: 3.507 acc@1: 35.31 mrr: 47.89, ndcg: 51.99, took: 0.50s Epoch 5, 77.6%	 loss: 3.631 acc@1: 33.28 mrr: 46.45, ndcg: 50.88, took: 0.50s Epoch 5, 86.2%	 loss: 3.495 acc@1: 32.03 mrr: 46.97, ndcg: 51.84, took: 0.46s Epoch 5, 94.8%	 loss: 3.325 acc@1: 38.28 mrr: 51.42, ndcg: 55.77, took: 0.45s 
-Validation loss = 4.47 acc@1 = 36.92 f1 = 24.22 mrr = 47.93, ndcg = 51.63
-Validation loss decreased (4.585112 --> 4.471659).  Saving model ...
-Current learning rate: 0.000937
-==================================================
-Epoch 6, 8.6%	 loss: 3.179 acc@1: 36.41 mrr: 50.76, ndcg: 55.61, took: 0.45s Epoch 6, 17.2%	 loss: 3.184 acc@1: 37.66 mrr: 51.39, ndcg: 55.63, took: 0.45s Epoch 6, 25.9%	 loss: 3.206 acc@1: 39.69 mrr: 52.26, ndcg: 56.06, took: 0.44s Epoch 6, 34.5%	 loss: 3.212 acc@1: 35.94 mrr: 50.15, ndcg: 54.80, took: 0.44s Epoch 6, 43.1%	 loss: 3.420 acc@1: 32.81 mrr: 47.37, ndcg: 52.02, took: 0.45s Epoch 6, 51.7%	 loss: 3.201 acc@1: 38.28 mrr: 51.70, ndcg: 55.95, took: 0.44s Epoch 6, 60.3%	 loss: 3.197 acc@1: 36.72 mrr: 51.11, ndcg: 55.48, took: 0.44s Epoch 6, 69.0%	 loss: 3.390 acc@1: 34.53 mrr: 48.10, ndcg: 52.54, took: 0.45s Epoch 6, 77.6%	 loss: 3.096 acc@1: 40.62 mrr: 53.57, ndcg: 57.63, took: 0.45s Epoch 6, 86.2%	 loss: 3.193 acc@1: 39.53 mrr: 52.54, ndcg: 56.73, took: 0.45s Epoch 6, 94.8%	 loss: 3.220 acc@1: 37.97 mrr: 51.09, ndcg: 55.82, took: 0.44s 
-Validation loss = 4.49 acc@1 = 37.28 f1 = 25.34 mrr = 48.44, ndcg = 52.22
-EarlyStopping counter: 1 out of 3
-Current learning rate: 0.000917
-==================================================
-Epoch 7, 8.6%	 loss: 3.113 acc@1: 40.94 mrr: 53.02, ndcg: 56.97, took: 0.45s Epoch 7, 17.2%	 loss: 3.009 acc@1: 41.25 mrr: 53.98, ndcg: 58.12, took: 0.44s Epoch 7, 25.9%	 loss: 3.089 acc@1: 36.41 mrr: 50.88, ndcg: 55.60, took: 0.44s Epoch 7, 34.5%	 loss: 3.036 acc@1: 41.88 mrr: 54.36, ndcg: 59.05, took: 0.44s Epoch 7, 43.1%	 loss: 3.066 acc@1: 37.50 mrr: 51.88, ndcg: 56.67, took: 0.44s Epoch 7, 51.7%	 loss: 2.995 acc@1: 39.69 mrr: 53.39, ndcg: 57.96, took: 0.44s Epoch 7, 60.3%	 loss: 3.069 acc@1: 38.28 mrr: 52.52, ndcg: 57.60, took: 0.47s Epoch 7, 69.0%	 loss: 3.242 acc@1: 37.66 mrr: 50.50, ndcg: 54.65, took: 0.44s Epoch 7, 77.6%	 loss: 2.924 acc@1: 43.28 mrr: 56.26, ndcg: 60.61, took: 0.46s Epoch 7, 86.2%	 loss: 3.258 acc@1: 38.28 mrr: 50.94, ndcg: 55.46, took: 0.50s Epoch 7, 94.8%	 loss: 2.934 acc@1: 42.03 mrr: 54.57, ndcg: 58.92, took: 0.45s 
-Validation loss = 4.51 acc@1 = 40.13 f1 = 29.36 mrr = 50.20, ndcg = 53.80
-EarlyStopping counter: 2 out of 3
-Current learning rate: 0.000896
-==================================================
-Epoch 8, 8.6%	 loss: 2.982 acc@1: 39.06 mrr: 52.42, ndcg: 56.66, took: 0.51s Epoch 8, 17.2%	 loss: 2.952 acc@1: 41.41 mrr: 54.54, ndcg: 59.33, took: 0.46s Epoch 8, 25.9%	 loss: 2.789 acc@1: 41.72 mrr: 55.28, ndcg: 59.69, took: 0.44s Epoch 8, 34.5%	 loss: 2.839 acc@1: 42.34 mrr: 55.30, ndcg: 59.83, took: 0.44s Epoch 8, 43.1%	 loss: 2.797 acc@1: 45.16 mrr: 57.34, ndcg: 61.57, took: 0.48s Epoch 8, 51.7%	 loss: 2.759 acc@1: 41.25 mrr: 55.29, ndcg: 60.36, took: 0.53s Epoch 8, 60.3%	 loss: 3.021 acc@1: 42.03 mrr: 53.61, ndcg: 57.81, took: 0.50s Epoch 8, 69.0%	 loss: 2.867 acc@1: 44.38 mrr: 56.11, ndcg: 59.99, took: 0.50s Epoch 8, 77.6%	 loss: 2.996 acc@1: 40.16 mrr: 53.15, ndcg: 57.33, took: 0.50s Epoch 8, 86.2%	 loss: 2.870 acc@1: 44.69 mrr: 56.43, ndcg: 60.01, took: 0.50s Epoch 8, 94.8%	 loss: 2.951 acc@1: 42.50 mrr: 54.66, ndcg: 58.92, took: 0.47s 
-Validation loss = 4.52 acc@1 = 39.77 f1 = 30.72 mrr = 50.04, ndcg = 53.77
-EarlyStopping counter: 3 out of 3
-==================================================
-Early stopping
-Current learning rate: 0.000088
-==================================================
-Epoch 9, 8.6%	 loss: 3.292 acc@1: 37.66 mrr: 50.93, ndcg: 55.14, took: 0.46s Epoch 9, 17.2%	 loss: 3.165 acc@1: 38.91 mrr: 52.01, ndcg: 56.33, took: 0.49s Epoch 9, 25.9%	 loss: 3.337 acc@1: 38.12 mrr: 50.45, ndcg: 54.13, took: 0.46s Epoch 9, 34.5%	 loss: 3.252 acc@1: 37.50 mrr: 50.82, ndcg: 55.14, took: 0.46s Epoch 9, 43.1%	 loss: 3.380 acc@1: 35.94 mrr: 48.92, ndcg: 52.94, took: 0.45s Epoch 9, 51.7%	 loss: 3.176 acc@1: 38.12 mrr: 51.86, ndcg: 56.23, took: 0.45s Epoch 9, 60.3%	 loss: 3.133 acc@1: 37.97 mrr: 51.94, ndcg: 56.67, took: 0.45s Epoch 9, 69.0%	 loss: 3.280 acc@1: 37.34 mrr: 50.62, ndcg: 54.97, took: 0.47s Epoch 9, 77.6%	 loss: 3.210 acc@1: 35.00 mrr: 49.94, ndcg: 54.75, took: 0.48s Epoch 9, 86.2%	 loss: 3.387 acc@1: 35.62 mrr: 48.75, ndcg: 53.00, took: 0.46s Epoch 9, 94.8%	 loss: 3.161 acc@1: 38.44 mrr: 52.29, ndcg: 56.78, took: 0.45s 
-Validation loss = 4.48 acc@1 = 36.56 f1 = 24.36 mrr = 47.68, ndcg = 51.48
-EarlyStopping counter: 1 out of 3
-Current learning rate: 0.000088
-==================================================
-Epoch 10, 8.6%	 loss: 3.226 acc@1: 36.41 mrr: 50.47, ndcg: 55.15, took: 0.45s Epoch 10, 17.2%	 loss: 3.330 acc@1: 37.81 mrr: 50.33, ndcg: 54.28, took: 0.44s Epoch 10, 25.9%	 loss: 3.268 acc@1: 35.47 mrr: 49.55, ndcg: 53.85, took: 0.44s Epoch 10, 34.5%	 loss: 3.244 acc@1: 37.81 mrr: 50.85, ndcg: 55.17, took: 0.45s Epoch 10, 43.1%	 loss: 3.276 acc@1: 36.56 mrr: 50.24, ndcg: 54.18, took: 0.46s Epoch 10, 51.7%	 loss: 3.218 acc@1: 37.50 mrr: 51.22, ndcg: 55.46, took: 0.45s Epoch 10, 60.3%	 loss: 3.156 acc@1: 38.91 mrr: 51.94, ndcg: 56.03, took: 0.45s Epoch 10, 69.0%	 loss: 3.193 acc@1: 38.44 mrr: 51.40, ndcg: 55.51, took: 0.45s Epoch 10, 77.6%	 loss: 3.269 acc@1: 36.72 mrr: 50.15, ndcg: 54.56, took: 0.45s Epoch 10, 86.2%	 loss: 3.125 acc@1: 37.50 mrr: 51.89, ndcg: 56.22, took: 0.45s Epoch 10, 94.8%	 loss: 3.116 acc@1: 39.22 mrr: 52.78, ndcg: 56.83, took: 0.45s 
-Validation loss = 4.49 acc@1 = 36.77 f1 = 24.52 mrr = 47.85, ndcg = 51.60
-EarlyStopping counter: 2 out of 3
-Current learning rate: 0.000088
-==================================================
-Epoch 11, 8.6%	 loss: 3.057 acc@1: 39.06 mrr: 52.84, ndcg: 56.71, took: 0.45s Epoch 11, 17.2%	 loss: 3.205 acc@1: 38.28 mrr: 51.07, ndcg: 55.29, took: 0.45s Epoch 11, 25.9%	 loss: 3.134 acc@1: 38.75 mrr: 52.19, ndcg: 56.53, took: 0.45s Epoch 11, 34.5%	 loss: 3.225 acc@1: 37.34 mrr: 51.02, ndcg: 55.39, took: 0.45s Epoch 11, 43.1%	 loss: 3.217 acc@1: 38.44 mrr: 51.01, ndcg: 54.93, took: 0.46s Epoch 11, 51.7%	 loss: 3.268 acc@1: 35.62 mrr: 49.47, ndcg: 53.81, took: 0.45s Epoch 11, 60.3%	 loss: 3.300 acc@1: 38.91 mrr: 50.80, ndcg: 54.62, took: 0.44s Epoch 11, 69.0%	 loss: 3.196 acc@1: 37.03 mrr: 50.74, ndcg: 55.18, took: 0.45s Epoch 11, 77.6%	 loss: 3.409 acc@1: 34.06 mrr: 47.75, ndcg: 52.54, took: 0.44s Epoch 11, 86.2%	 loss: 3.131 acc@1: 39.38 mrr: 52.66, ndcg: 56.95, took: 0.44s Epoch 11, 94.8%	 loss: 2.984 acc@1: 38.75 mrr: 53.08, ndcg: 57.72, took: 0.44s 
-Validation loss = 4.49 acc@1 = 36.95 f1 = 24.76 mrr = 48.03, ndcg = 51.79
-EarlyStopping counter: 3 out of 3
-==================================================
-Early stopping
-Current learning rate: 0.000009
-==================================================
-Epoch 12, 8.6%	 loss: 3.113 acc@1: 37.19 mrr: 52.49, ndcg: 57.03, took: 0.51s Epoch 12, 17.2%	 loss: 3.207 acc@1: 34.22 mrr: 49.34, ndcg: 54.41, took: 0.47s Epoch 12, 25.9%	 loss: 3.201 acc@1: 40.47 mrr: 52.71, ndcg: 56.20, took: 0.46s Epoch 12, 34.5%	 loss: 3.259 acc@1: 35.94 mrr: 50.27, ndcg: 54.89, took: 0.45s Epoch 12, 43.1%	 loss: 3.262 acc@1: 35.78 mrr: 49.84, ndcg: 54.42, took: 0.46s Epoch 12, 51.7%	 loss: 3.194 acc@1: 37.50 mrr: 50.95, ndcg: 55.61, took: 0.45s Epoch 12, 60.3%	 loss: 3.313 acc@1: 36.25 mrr: 49.40, ndcg: 53.59, took: 0.45s Epoch 12, 69.0%	 loss: 3.470 acc@1: 35.00 mrr: 47.94, ndcg: 51.76, took: 0.45s Epoch 12, 77.6%	 loss: 3.429 acc@1: 33.12 mrr: 47.28, ndcg: 51.64, took: 0.49s Epoch 12, 86.2%	 loss: 3.179 acc@1: 38.44 mrr: 51.55, ndcg: 55.99, took: 0.47s Epoch 12, 94.8%	 loss: 3.302 acc@1: 34.84 mrr: 49.49, ndcg: 54.16, took: 0.45s 
-Validation loss = 4.49 acc@1 = 36.68 f1 = 24.12 mrr = 47.83, ndcg = 51.60
-EarlyStopping counter: 1 out of 3
-Current learning rate: 0.000009
-==================================================
-Epoch 13, 8.6%	 loss: 3.480 acc@1: 33.91 mrr: 47.35, ndcg: 51.41, took: 0.47s Epoch 13, 17.2%	 loss: 3.399 acc@1: 33.44 mrr: 47.68, ndcg: 52.20, took: 0.46s Epoch 13, 25.9%	 loss: 3.141 acc@1: 40.78 mrr: 53.22, ndcg: 57.31, took: 0.46s Epoch 13, 34.5%	 loss: 3.145 acc@1: 36.72 mrr: 51.02, ndcg: 55.67, took: 0.46s Epoch 13, 43.1%	 loss: 3.364 acc@1: 33.75 mrr: 48.02, ndcg: 52.77, took: 0.46s Epoch 13, 51.7%	 loss: 3.179 acc@1: 39.53 mrr: 52.30, ndcg: 56.48, took: 0.46s Epoch 13, 60.3%	 loss: 3.148 acc@1: 38.91 mrr: 52.42, ndcg: 56.56, took: 0.54s Epoch 13, 69.0%	 loss: 3.205 acc@1: 37.03 mrr: 51.48, ndcg: 56.29, took: 0.50s Epoch 13, 77.6%	 loss: 3.133 acc@1: 39.06 mrr: 53.04, ndcg: 57.47, took: 0.47s Epoch 13, 86.2%	 loss: 3.310 acc@1: 37.66 mrr: 51.18, ndcg: 55.34, took: 0.44s Epoch 13, 94.8%	 loss: 3.389 acc@1: 36.56 mrr: 49.16, ndcg: 52.96, took: 0.44s 
-Validation loss = 4.49 acc@1 = 37.01 f1 = 24.37 mrr = 47.99, ndcg = 51.71
-EarlyStopping counter: 2 out of 3
-Current learning rate: 0.000009
-==================================================
-Epoch 14, 8.6%	 loss: 3.184 acc@1: 36.56 mrr: 51.39, ndcg: 56.14, took: 0.51s Epoch 14, 17.2%	 loss: 3.423 acc@1: 36.88 mrr: 49.01, ndcg: 52.53, took: 0.45s Epoch 14, 25.9%	 loss: 3.328 acc@1: 36.25 mrr: 49.44, ndcg: 53.49, took: 0.44s Epoch 14, 34.5%	 loss: 3.145 acc@1: 37.19 mrr: 51.54, ndcg: 55.96, took: 0.44s Epoch 14, 43.1%	 loss: 3.389 acc@1: 34.84 mrr: 48.04, ndcg: 52.29, took: 0.52s Epoch 14, 51.7%	 loss: 3.271 acc@1: 33.91 mrr: 49.16, ndcg: 54.00, took: 0.46s Epoch 14, 60.3%	 loss: 3.236 acc@1: 36.72 mrr: 51.00, ndcg: 55.29, took: 0.45s Epoch 14, 69.0%	 loss: 3.193 acc@1: 39.38 mrr: 52.61, ndcg: 56.78, took: 0.45s Epoch 14, 77.6%	 loss: 3.182 acc@1: 40.00 mrr: 52.14, ndcg: 56.04, took: 0.45s Epoch 14, 86.2%	 loss: 3.195 acc@1: 38.91 mrr: 51.82, ndcg: 55.86, took: 0.48s Epoch 14, 94.8%	 loss: 3.330 acc@1: 33.44 mrr: 47.74, ndcg: 52.49, took: 0.47s 
-Validation loss = 4.49 acc@1 = 36.92 f1 = 24.29 mrr = 47.96, ndcg = 51.66
-EarlyStopping counter: 3 out of 3
-==================================================
-Early stopping
-Training finished.	 Time: 94.84s.	 acc@1: 36.92%
-123.45309874803348 20.048552631823508
-acc@1 = 28.33 f1 = 18.50 mrr = 38.70 ndcg = 42.98
-[{'correct@1': 1231.0, 'correct@3': 1870.0, 'correct@5': 2032.0, 'correct@10': 2133.0, 'rr': 1598.0034, 'ndcg': 51.627206802368164, 'f1': 0.24223183366016596, 'total': 3334.0, 'acc@1': 36.92261576652527, 'acc@5': 60.94781160354614, 'acc@10': 63.977205753326416, 'mrr': 47.93051779270172, 'type': 'vali'}, {'correct@1': 992.0, 'correct@3': 1562.0, 'correct@5': 1801.0, 'correct@10': 2027.0, 'rr': 1355.1334, 'ndcg': 42.979881167411804, 'f1': 0.185014290252597, 'total': 3502.0, 'acc@1': 28.326669335365295, 'acc@5': 51.42775774002075, 'acc@10': 57.88121223449707, 'mrr': 38.695985078811646, 'type': 'test'}]
-   correct@1  correct@3  correct@5  ...     acc@10        mrr  type
-0     1259.0     1908.0     2037.0  ...  65.356928  48.698428  vali
-1      971.0     1666.0     1839.0  ...  57.652771  39.179364  test
-2     1231.0     1870.0     2032.0  ...  63.977206  47.930518  vali
-3      992.0     1562.0     1801.0  ...  57.881212  38.695985  test
-
-[4 rows x 13 columns]

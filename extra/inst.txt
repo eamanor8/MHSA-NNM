@@ -1,0 +1,12 @@
+run main-ex:
+    python main-ex.py config/gowalla/transformer.yml --excluded_users_file "./data/gowalla/100-excluded-users.txt" --model_path "saved-models/checkpoint.pt"
+
+run main-5k:
+    python main-5k.py config/gowalla/5k-transformer.yml --model_path saved-models/checkpoint.pt | tee terminal-outputs/5k-test.txt
+
+# change added to dataloader
+# Skip if no valid history
+            if hist.empty:
+                continue
+
+    

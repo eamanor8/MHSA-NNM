@@ -1,9 +1,11 @@
 # Sensitive
 data/
+data-5k/
 dblogin*
 paths.json
 trained_models/
 outputs/
+outputs-5k/
 
 # Mac
 .DS_Store
