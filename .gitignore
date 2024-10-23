@@ -6,6 +6,7 @@ paths.json
 trained_models/
 outputs/
 outputs-5k/
+saved-models/
 
 # Mac
 .DS_Store
